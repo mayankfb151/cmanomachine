@@ -1,0 +1,6 @@
+ ORG                                               1000
+ION
+LDA  X
+HLT
+      X,   HEX   000F
+END

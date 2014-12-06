@@ -1,0 +1,11 @@
+ORG 1000                                                   /*   if any bug is found feel free me to contact me    
+LDA MAYANK
+CIR                                                           /contact: mayankf599@gmail.com
+CIR
+CIR                                                           /contact: mayankf599@gmail.com
+CIR
+HLT
+MAYANK, DEC 1
+END 
+
+// END OF PROGRAM

@@ -1,0 +1,19 @@
+ORG 1000                                   /program to demonstrate subroutines
+LDA X                                         / not checked by me
+BSA SH4
+STA X
+LDA Y                                        /   if any bug is found feel free me to contact me    
+BSA SH4
+STA Y
+LDA Y
+HLT                                          /contact: mayankf599@gmail.com  @hnbgu
+X, DEC 1
+Y, DEC 2
+SH4, DEC 0
+CIL
+AND MSK
+BUN SH4 I
+MSK, HEX FFF0
+END
+
+

@@ -1,0 +1,13 @@
+ORG 1000                                       /do not leave any space in your code assembler will crash 
+ION
+LDA   AUTHOR:
+ADD  NAME 
+ADD  MAYANK                                 /if any bug is found feel free to contact me
+ADD  BAHUGUNA     
+HLT                                                /contact------------>mayankf599@gmail.com
+AUTHOR:, HEX 0008
+NAME, HEX 0008
+MAYANK, DEC -6
+BAHUGUNA, DEC  -7 
+END
+

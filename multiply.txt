@@ -1,0 +1,27 @@
+ORG 1000           /program to multiply two numbers
+LOP, CLE
+LDA Y            /if any bug is found feel free me to contact me    
+CIR               /contact: mayankf599@gmail.com 
+ION
+STA Y
+SZE
+BUN ONE
+BUN ZRO
+ONE, LDA   X                                     
+ADD P
+STA P
+CLE
+ZRO, LDA X
+CIL
+STA X
+ISZ CTR
+BUN LOP
+LDA P
+HLT
+CTR, DEC -8
+X, DEC 16000              //first number
+Y, DEC 2              /*second number 
+P, DEC 0
+END
+
+

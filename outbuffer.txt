@@ -1,0 +1,8 @@
+ORG 1002
+ION
+LDA OUT
+STA outbufferloc I
+HLT
+OUT, DEC 6
+outbufferloc, DEC 500
+END

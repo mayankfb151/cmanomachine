@@ -1,0 +1,23 @@
+
+
+
+ORG 1001                /program to compare two numbers
+LDA WD1                 /   if any bug is found feel free me to contact me    
+CMA                        /contact: mayankf599@gmail.com        
+INC                         /NOTE:  assembler may crash on bad input
+ADD WD2
+SZA
+
+
+
+BUN           UEQ
+BUN EQL
+WD1, DEC   13        /first number here
+WD2, DEC 11          /second number here
+UEQ, LDA Q
+HLT
+EQL, LDA R
+HLT
+Q, DEC 10               / if numbers are unequal 10 is loaded to ac
+R, DEC 12               / if numbers are equal 12 is loaded to ac 
+END 
